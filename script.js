@@ -18,12 +18,17 @@ const productosIniciales = [
   {id:"6",nombre:"Paleta de Sombras",categoria:"Sombras",precio:55000,cantidad:6}
 ];
 
+
 const imagenes = {
-  Labiales:"imagenes/labiales.jpg", Bases:"imagenes/bases.jpg",
-  Polvos:"imagenes/polvos.jpg", Pestañinas:"imagenes/pestaninas.jpg",
-  Rubores:"imagenes/rubores.jpg", Sombras:"imagenes/sombras.jpg",
-  Correctores:"imagenes/correctores.jpg"
+  Labiales: "labiales.jpg",
+  Bases: "bases.jpg",
+  Polvos: "polvos.jpg",
+  Pestañinas: "pestaninas.jpg",
+  Rubores: "rubores.jpg",
+  Sombras: "sombras.jpg",
+  Correctores: "correctores.jpg"
 };
+
 
 function cargarProductos(){
   const guardados=localStorage.getItem("productosGlamour");
