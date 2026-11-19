@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Glamour Beauty: tienda y administrador de productos de maquillaje.">
+  <title>Glamour Beauty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="marca">
+      <span class="corazon">♡</span>
+      <div><h1>Glamour Beauty</h1><p>Tu belleza, tu estilo</p></div>
+      <span class="corazon">♡</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <p class="etiqueta">BELLEZA • COLOR • CONFIANZA</p>
+      <h2>Encuentra tus favoritos de belleza</h2>
+      <p>Explora y administra tu colección de maquillaje.</p>
+    </section>
+
+    <section class="seccion administrar" id="administrar">
+      <h2>Administrar productos</h2>
+      <form id="formularioProducto">
+        <input type="hidden" id="productoId">
+        <div class="campo"><label for="nombre">Nombre del producto</label><input type="text" id="nombre" placeholder="Ej. Labial Rosado" required></div>
+        <div class="campo"><label for="categoria">Categoría</label>
+          <select id="categoria" required>
+            <option value="">Selecciona una categoría</option>
+            <option value="Labiales">Labiales</option><option value="Bases">Bases</option>
+            <option value="Polvos">Polvos</option><option value="Pestañinas">Pestañinas</option>
+            <option value="Rubores">Rubores</option><option value="Sombras">Sombras</option>
+            <option value="Correctores">Correctores</option>
+          </select>
+        </div>
+        <div class="campo"><label for="precio">Precio (COP)</label><input type="number" id="precio" min="1" step="1" placeholder="25000" required></div>
+        <div class="campo"><label for="cantidad">Cantidad</label><input type="number" id="cantidad" min="0" step="1" placeholder="10" required></div>
+        <div class="botones-form"><button type="submit" id="btnGuardar">＋ Agregar producto</button><button type="button" id="btnCancelar" class="btn-cancelar" hidden>Cancelar</button></div>
+      </form>
+    </section>
+
+    <section class="seccion">
+      <div class="titulo-productos"><span></span><h2>Nuestros productos</h2><span></span></div>
+      <div id="listaProductos" class="productos"></div>
+    </section>
+  </main>
+  <footer>© 2026 Glamour Beauty · Hecho con cariño 💗</footer>
+  <script src="script.js"></script>
+</body>
+</html>
