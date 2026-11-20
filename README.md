@@ -38,4 +38,32 @@ Glamour-Beauty/
     ├── sombras.jpg
     └── correctores.jpg
 ```
+##Prompts utilizados con inteligencia artificial
+
+Prompt 1. Creación del proyecto
+
+Se solicitó a ChatGPT ayuda para crear una aplicación web CRUD de productos de maquillaje llamada Glamour Beauty, utilizando HTML, CSS y JavaScript.
+
+Objetivo: establecer la estructura inicial y las funcionalidades del proyecto.
+
+Prompt 2. Generación y corrección del código
+
+Se solicitó generar el código completo y corregido de los archivos HTML, CSS y JavaScript.
+
+Objetivo: implementar las operaciones para crear, visualizar, actualizar y eliminar productos.
+
+Prompt 3. Incorporación de imágenes
+
+Se preguntó cómo agregar imágenes de productos de maquillaje al código HTML y JavaScript.
+
+Objetivo: mejorar la presentación visual de los productos.
+
+Prompt 4. Corrección de errores
+
+Se solicitó ayuda para solucionar el problema por el cual los productos no aparecían en la página.
+
+Objetivo: corregir el funcionamiento de la aplicación y visualizar correctamente los productos.
+
+
+
 
