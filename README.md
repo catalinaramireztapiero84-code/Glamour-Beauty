@@ -64,6 +64,9 @@ Se solicitó ayuda para solucionar el problema por el cual los productos no apar
 
 Objetivo: corregir el funcionamiento de la aplicación y visualizar correctamente los productos.
 
+##ebidencia 
+![Página principal de Glamour Beauty](portada.png)
+
 
 
 
