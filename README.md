@@ -38,3 +38,4 @@ Glamour-Beauty/
     ├── sombras.jpg
     └── correctores.jpg
 ```
+
