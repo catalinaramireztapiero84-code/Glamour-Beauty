@@ -67,6 +67,18 @@ Objetivo: corregir el funcionamiento de la aplicación y visualizar correctament
 ##evidencia 
 ![Página principal de Glamour Beauty](portada.png)
 
+## 🎥 Video explicativo del proyecto
+
+En el siguiente enlace se presenta el funcionamiento del proyecto Glamour Beauty, su desarrollo, las tecnologías utilizadas y las evidencias de ejecución.
+
+**Video de presentación:**
+
+https://youtu.be/8UE8iyB5QT4
+
+## 📁 Repositorio del proyecto
+
+https://github.com/catalinaramireztapiero84-code/Glamour-Beauty
+
 
 
 
